@@ -16,7 +16,7 @@ body{
 }
 .banner{
     height: 100vh;
-    background: url("../assets/img/507179-neon-city-trickshot-map-fortnitecreative\ 1\ \(1\).png") no-repeat center center;
+    background: url("../assets/img/background.png") no-repeat center center;
     background-size:cover;
     position: relative;
   
@@ -109,7 +109,7 @@ body{
 .menu-items a:hover {
   color: #f4f7f6;
   transition: color 0.3s ease-in-out;
-  background: #7551B3;
+  background: #ED8572;
   width: 122px;
   height: 108px;
   left: 870px;
@@ -118,7 +118,7 @@ body{
   
 }
 .menu-items li img{
-    background-color: #7551B3;
+    background-color: #D04F38;;
    
     width: 60px;
     height: 60px;
@@ -163,7 +163,8 @@ font-size: 1.3rem;
 
 .menu-items a {
 text-decoration: none;
-color: rgb(10, 10, 10);
+color: 
+#D04F38;
 font-weight: 500;
 transition: color 0.2s ease-in-out;
 }
@@ -171,7 +172,7 @@ transition: color 0.2s ease-in-out;
 .menu-items a:hover {
 color: #f4f7f6;
 transition: color 0.3s ease-in-out;
-background: #7551B3;
+background: #D04F38; 
 width: 122px;
 height: 108px;
 left: 870px;
@@ -179,13 +180,40 @@ top: 900px;
 
 
 }
-.menu-items li img{
-  background-color: #7551B3;
-  width: 50px;
-  height: 40px;
+.menu-items .menu-item2 img{
+  background-color:#ED8572;
+  width: 67px;
+  height: 50px;
 
 }
+.menu-item2 a:hover{
+  color: #f4f7f6;
+transition: color 0.3s ease-in-out;
+background:#ED8572;
+width: 122px;
+height: 108px;
+left: 870px;
+top: 900px;
+}
+.menu-items .menu-item1{
+  font-weight: 600;
+font-size: 17px;
+line-height: 58px;
+/* or 341% */
 
+text-align: center;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+  background-color: #D04F38;  
+  width: 67px;
+  height: 50px;
+
+}
+.menu-items .menu-item1 a{
+  color: #FFFFFF;
+}
 .logo {
   width: 72px;
   height: 72px;
@@ -344,7 +372,7 @@ color: #646464;
   
   letter-spacing: 0.06em;
   
-  color: #7551B3;
+  color: #D04F38;;
   
   
 }
@@ -398,7 +426,7 @@ color: #C6C6C6;
   line-height: 34px;
   margin-bottom: 30px;
   letter-spacing: 0.06em;
-  color: #8862CB;
+  color: #D04F38;;
 }    
 .column1 {
   float: left;
@@ -414,7 +442,7 @@ line-height: 42px;
 text-align: center;
 text-transform: uppercase;
 
-color: #8862CB;
+color: #D04F38;;
 }
 
 
@@ -478,7 +506,9 @@ margin-left: 100px;
 }
 .column3 img{
   height:500px;
-  margin-left: 65px;
+
+  margin-left: 200px;
+  margin-top:70px;
 
 }
 .image-section{
@@ -512,7 +542,7 @@ line-height: 27px;
 text-align: center;
 text-transform: uppercase;
 margin-top: 10px;
-color: #7551B3;
+color: #D04F38;;
 
 }
 input[type=text], select, textarea {
@@ -520,7 +550,7 @@ width: 30%;
 padding: 12px;
 background-color: transparent;
 
-border: 1.8029px solid #7551B3;
+border: 1.8029px solid #D04F38;;
 box-sizing: border-box;
 margin-top: 6px;
 margin-bottom: 16px;
@@ -543,15 +573,14 @@ background-color: #45a049;
 .containers {
 border-radius: 5px;
 background: url(../images/WallpaperDog-20346742\ 1.png);
-opacity: 0.98;
+opacity: 0.300;
 padding: 20px;
 height: 300px;
 
 }
 .contact{
 margin-top: 90px;
-
-background-color: #000;
+background-color: #000
 
 }
 .column4{
@@ -574,7 +603,7 @@ line-height: 40px;
 margin-top: 70px;
 text-align: center;
 
-color: #7551B3;
+color: #D04F38;;
 
 }
 .contact-us1{
@@ -626,7 +655,7 @@ color: #FFFFFF;
 }
 .contact-us{
 
-background: url(/assets/img/example1\ 2.png);
+background: url(/assets/img/example-2.png);
 background-size:cover;
     position: relative;
     height: 300px;
@@ -648,7 +677,7 @@ font-size: 28px;
 text-align: center;
 text-transform: uppercase;
 
-color: #CA68DA;
+color: #D04F38;
 }
 
 .column-footer{
@@ -726,7 +755,7 @@ padding: 10px 0 10px 20px;
 
 .card .row .form-group label {
 line-height: 40px;
-color: #7551B3;
+color: #D04F38;;
 font-size: 24px;
 margin: 0 0 0 30px;
 display: block;
@@ -750,7 +779,7 @@ height: 30%;
 width: 200%;
 cursor: pointer;
 
-background-color:  #7551B3;;
+background-color:  #D04F38;
 text-transform: uppercase;
 color: #FFFFFF;;
 line-height: 40px;
@@ -822,7 +851,7 @@ top: 0;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color:#7551B3;
+  color:#D04F38;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
@@ -846,7 +875,7 @@ top: 0;
   font-size: 15px;
   padding: 8px 20px;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 80px;
  width: 100%;
  font-family: 'Poppins';
 font-style: normal;
@@ -856,7 +885,7 @@ line-height: 40px;
 text-align: center;
 text-transform: uppercase;
 
-color: #7551B3;
+color: #D04F38;
 }
 
 .text-slide P{
@@ -887,14 +916,14 @@ margin-top: 750px;
  background-color: rgba(252, 249, 249, 0.0); ;
   border-radius: 8%;
   display: inline-block;
-  border: 2px solid #7551B3;
+  border: 2px solid #D04F38;
   padding: 5px;
   
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background: #7551B3;
+  background: #D04F38;
 }
 
 
